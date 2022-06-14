@@ -1,0 +1,62 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #fff;
+  font-weight:lighter;
+  font-size:18px;
+}
+h3 {
+  font-size:3rem;
+}
+li {
+  font-size:1rem;
+  line-height:2em;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.mainContent {
+  width: 80%;
+  margin: 10vh auto;
+  display: flex;
+  gap: 4%;
+}
+
+.mainContent > div {
+  width: 48%;
+}
+
+.albumInfo {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.albumInfo img {
+  border-radius: 60px;
+  width: 100px;
+}
+
+.albumInfo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.albumContainer {
+  margin-top: 2em;
+}
+.albumContainer li {
+  list-style-type: none;
+}
